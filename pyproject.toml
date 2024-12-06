@@ -10,6 +10,9 @@ python = "^3.11"
 fastapi = "^0.115.6"
 tinydb = "^4.8.2"
 pre-commit = "^4.0.1"
+uvicorn = "^0.32.1"
+pydantic = {extras = ["email"], version = "^2.10.3"}
+httpx = "^0.28.0"
 
 
 [build-system]
